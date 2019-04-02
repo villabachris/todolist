@@ -12,5 +12,6 @@
     <?php require_once 'header.php'?>
     <?php $conn?>
     <?php get_content_page()?>
+    <script src="../assets/js/script.js"></script>
 </body>
 </html>

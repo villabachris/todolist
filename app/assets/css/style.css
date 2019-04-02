@@ -79,7 +79,7 @@ body{
 }
 #table td>#edit{
     text-decoration: none;
-    background-color: rgb(111, 205, 92);
+    background-color: rgb(92, 201, 205);
     color: #f0f0f0;
     padding: 10px;
     border-radius: 5px;
@@ -95,7 +95,7 @@ body{
     background-color: rgb(92, 154, 205);
     text-decoration: none;
     color: #e4e4e4;
-    padding: 7px;
+    padding: 7.4px 17px;
     border-radius: 5px;
     border: none;
 
@@ -104,4 +104,40 @@ body{
     margin: 30px auto 0;
     width: 50%;
     font-size: 1.5rem;
+}
+
+#doneForm{
+    display: inline;
+}
+#doneForm button{
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: chartreuse;
+    color: #4d4d4d;
+    font-weight: bold;
+}
+#pending{
+    background-color: rgb(255, 197, 89);
+    padding: 5px 15px;
+    color: #383838;
+    border-radius: 5px;
+    
+}
+#complete{
+    background-color: rgb(135, 250, 112);
+    padding: 5px 15px;
+    color: #383838;
+    border-radius: 5px;
+    
+}
+#alert{
+    width: 300px;
+    margin: 50px auto 1px;
+    text-align: center;
+    background-color: rgb(253, 136, 136);
+    color: #e4e4e4;
+    border-radius: 5px;
+
+    
 }
